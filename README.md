@@ -1,4 +1,9 @@
 # squared: the simplest game website that runs on any Chromebook
+checklist of progress
+ - [X] Finish HTML Page
+ - [ ] Finish Scratch Page
+ - [ ] Make disguised tab (google classroom)
+ - [ ] Publish it
 
 **Squared was created by students, for students.**
 Other game websites bombard you with ads, lag, or just not even working in the first place.
