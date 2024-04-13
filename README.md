@@ -23,4 +23,5 @@ To save one, click the link and press **ctrl** + **S**
 
 > **Don't see a website that your school uses?** Email squaredgamerequest@gmail.com with the website name to get it.
 
-coming soon, give me actually 270 seconds
+[Aeries](https://raw.githubusercontent.com/huskey404/squared/main/downloads/aeries.html)
+[Google Classroom](https://raw.githubusercontent.com/huskey404/squared/main/downloads/googleclassroom.html)
