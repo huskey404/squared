@@ -50,6 +50,24 @@
             font-weight: bold;
         }
     </style>
+    <script>
+        // Function to check if the page is loaded in an iframe
+        function isInIframe() {
+          try {
+            return window.self !== window.top;
+          } catch (e) {
+            return true; // If accessing window.top throws an error, assume it's in iframe
+          }
+        }
+      
+        // Hide elements with class "help" if the page is loaded in an iframe
+        if (isInIframe()) {
+          var helpElements = document.querySelectorAll('.help');
+          helpElements.forEach(function(element) {
+            element.style.display = 'none';
+          });
+        }
+      </script>
 </head>
 <body>
     <h1>S Q U Δ R E D</h1>
@@ -61,7 +79,7 @@
     <div>
         <br>
         <br>
-        <a href="https://readthisentirething.please/?=DO NOT OPEN THIS NORMALLY! Please go to https://github.com/huskey404/squared and click on the downloads folder to get a disguised tab file." class="help"><span class="text">Opening website on a school</span></a>
+        <a href="https://github.com/" class="help"><span class="text">Opening website on a school computer? Click here.</span></a>
     </div>
 </body>
 </html>
