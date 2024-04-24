@@ -1,12 +1,6 @@
 # squared: the simplest game website that runs on any school device (except apple classrooms, stop asking me)
 ## on a school computer? scroll down to Disguised Tabs.
 
-checklist of progress
- - [X] Finish HTML Page
- - [ ] Finish Scratch Page
- - [X] Make disguised tab (google classroom)
- - [X] Publish it
-
 **Squared was created by students, for students.**
 Other game websites bombard you with ads, lag, or just not even working in the first place.
 Squared fixes that by making everything faster, better, and easier to use.
