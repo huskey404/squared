@@ -51,22 +51,7 @@
         }
     </style>
     <script>
-        // Function to check if the page is loaded in an iframe
-        function isInIframe() {
-          try {
-            return window.self !== window.top;
-          } catch (e) {
-            return true; // If accessing window.top throws an error, assume it's in iframe
-          }
-        }
-      
-        // Hide elements with class "help" if the page is loaded in an iframe
-        if (isInIframe()) {
-          var helpElements = document.querySelectorAll('.help');
-          helpElements.forEach(function(element) {
-            element.style.display = 'none';
-          });
-        }
+        // Please put the script in here
       </script>
 </head>
 <body>
