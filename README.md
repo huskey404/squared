@@ -1,5 +1,5 @@
 # squared: the simplest game website that runs on any school device (except apple classrooms, stop asking me)
-## use it at https://thefitnessgrampacertest.netlify.app or scroll down for disguised tabs
+## on a school computer? scroll down to Disguised Tabs.
 
 checklist of progress
  - [X] Finish HTML Page
