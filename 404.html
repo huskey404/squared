@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S  Q  U  Δ  R  E  D</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script>
+        const wrapper = document.getElementById("bubble-wrapper");
+
+        const animateBubble = x => {  
+          const bubble = document.createElement("div");
+          
+          bubble.className = "bubble";
+          bubble.style.left = `${x}px`;
+          
+          wrapper.appendChild(bubble);
+          
+          setTimeout(() => wrapper.removeChild(bubble), 2000);
+        }
+        
+        window.onmousemove = e => animateBubble(e.clientX);
+    </script>
+    <style>
+        body {
+            font-family: 'Roboto Mono', monospace;
+            color: #FFF;
+            background-color: #000;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+            font-size: 5rem;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+        @keyframes wave {
+            from, to {
+                transform: translate(-50%, 0%);
+            }
+  
+            50% {
+                transform: translate(-50%, -20%);
+            }
+        }
+        #bubble-wrapper {
+            height: 100%;
+            width: 100%;
+            
+            position: fixed;
+            bottom: 0px;
+            
+            overflow: hidden;
+            pointer-events: none;
+            }
+
+            .bubble {
+            height: max(300px, 30vw);
+            width: max(300px, 30vw);
+            
+            background-color: rgb(243, 33, 33);  
+            border-radius: 100%;
+            
+            position: absolute;
+            left: 50%;
+            top: 100%;
+            
+            animation: wave 2s ease-in-out infinite;
+            }
+
+            @media(prefers-reduced-motion) {
+            .bubble {
+                animation: none;
+                display: none;
+            }
+        }
+        .button {
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #222;
+            color: #FFF;
+            cursor: pointer;
+            text-decoration: none; /* Remove default anchor underline */
+        }
+        .button:hover {
+            background-color: #FF0000;
+            color: #FFF;
+        }
+        .button:hover .text {
+            color: #FFF;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>4 0 4</h1>
+    yeah, this page doesn't exist.
+    <div class="button-container">
+        <a href="index.html" class="button"><span class="text">back to main menu</span></a>
+    </div>
+    <div id="bubble-wrapper">
+    </div>
+</body>
+</html>
