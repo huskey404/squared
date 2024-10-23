@@ -18,24 +18,17 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            position: relative; /* Allows absolute positioning of child elements */
         }
         img {
             max-width: 100%;
             height: auto;
             margin-bottom: 30px;
         }
-        .corner-image {
-            position: absolute;
-            top: 20px; /* Adjust as needed */
-            right: 20px; /* Adjust as needed */
-            max-width: 100px; /* Limit size of corner image */
-            height: auto;
-        }
         @keyframes wave {
             from, to {
                 transform: translate(-50%, 0%);
             }
+  
             50% {
                 transform: translate(-50%, -20%);
             }
@@ -48,6 +41,7 @@
             overflow: hidden;
             pointer-events: none;
         }
+
         .bubble {
             height: max(300px, 30vw);
             width: max(300px, 30vw);
@@ -58,6 +52,7 @@
             top: 100%;
             animation: wave 2s ease-in-out infinite;
         }
+
         @media(prefers-reduced-motion) {
             .bubble {
                 animation: none;
@@ -87,7 +82,6 @@
 </head>
 <body>
     <img src="chromakopia.png" alt="S Q U Δ R E D">
-    <img href="https://www.chromakopia.com/" src="chromakopiacorner.png" alt="Corner Logo" class="corner-image">
     <div class="button-container">
         <a href="games/index.html" class="button"><span class="text">games</span></a>
         <a href="tools/index.html" class="button"><span class="text">tools</span></a>
