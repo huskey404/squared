@@ -1,23 +1,21 @@
-<!DOCTYPE html>
-<html>
-<head><base href='//www.coolmathgames.com/sites/default/files/public_games/50208/' /><meta name='robots' content='noindex'><link rel='canonical' href='https://www.coolmathgames.com/0-ovo' />
-    <meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<html><head><base href="//www.coolmathgames.com/sites/default/files/public_games/50208/"><meta name="robots" content="noindex"><link rel="canonical" href="https://www.coolmathgames.com/0-ovo">
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>OvO</title>
 	
 	<!-- Standardised web app manifest -->
-	<link rel="manifest" href="appmanifest.json" />
+	<link rel="manifest" href="appmanifest.json">
 	
 	<!-- Allow fullscreen mode on iOS devices. (These are Apple specific meta tags.) -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
-	<link rel="apple-touch-icon" sizes="256x256" href="icon-256.png" />
-	<meta name="HandheldFriendly" content="true" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="apple-touch-icon" sizes="256x256" href="icon-256.png">
+	<meta name="HandheldFriendly" content="true">
 	
 	<!-- Chrome for Android web app tags -->
-	<meta name="mobile-web-app-capable" content="yes" />
-	<link rel="shortcut icon" sizes="256x256" href="icon-256.png" />
+	<meta name="mobile-web-app-capable" content="yes">
+	<link rel="shortcut icon" sizes="256x256" href="icon-256.png">
 
     <!-- All margins and padding must be zero for the canvas to fill the screen. -->
 	<style type="text/css">
@@ -39,9 +37,9 @@
 		}
     </style>
 	
-	<link href="animate.css" rel="stylesheet" type="text/css" />
-	<link href="hmmg_layoutTransition.css" rel="stylesheet" type="text/css" />
-	<link href="jquery.gritter.css" rel="stylesheet" type="text/css" />
+	<link href="animate.css" rel="stylesheet" type="text/css">
+	<link href="hmmg_layoutTransition.css" rel="stylesheet" type="text/css">
+	<link href="jquery.gritter.css" rel="stylesheet" type="text/css">
 
 
           <style type="text/css">
@@ -55,7 +53,7 @@
             }
           </style>
         
-          <script type="text/javascript">
+          <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/destination?id=AW-386269532&amp;l=dataLayer&amp;cx=c"></script><script id="CoolMathGames-jssdk" src="https://www.coolmathgames.com/sites/default/files/cmg-ads.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-WKRSNN8"></script><script type="text/javascript">
             setTimeout(function(){
               if(document.getElementsByTagName("canvas").length) {
                 document.getElementsByTagName("body")[0].classList.add("no-select")
@@ -356,9 +354,283 @@
             }
           }, 60000);
           </script>
-        </head> 
+        <script src="offlineClient.js"></script><style>.animated,animated.hinge,.animated.flipOutX,.animated.flipOutY,.animated.bounceIn,.animated.bounceOut,.animated.flipOutXX,.animated.flipInXX,.animated.flipInYY,.animated.flipOutYY{-webkit-animation-duration: 0.7s !important;animation-duration: 0.7s !important;}</style><script type="text/javascript" src="lzma.js"></script><script type="text/javascript" src="unlockalllevels.js"></script><script type="text/javascript" src="websdkwrapper.js"></script><script type="text/javascript" src="ovo-level-editor.js"></script><script type="text/javascript" src="ovo-multiplayer.js"></script><style>
+  canvas {
+    user-select: none !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+  }
+  </style><link rel="stylesheet" type="text/css" href="style.css"><link href="fonts.css" rel="stylesheet" type="text/css"><style>
+/* General Styles */
+.ads-popup {
+  font-family: "Helvetica Neue", "Arial Nova", Helvetica, Arial, sans-serif!important;
+}
+
+/* Hidden Elements */
+.ads-popup, .ad-container, #img-button-self {
+  display: none;
+}
+
+/* Ads Popup and Container Styles */
+.ads-popup, .ad-container {
+  position: relative;
+  z-index: 10;
+}
+
+.ads-popup {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index:111111;
+  background: #000000;
+  height: 100vh;
+  width: 100%;
+}
+
+.ad-container {
+  height: 100%;
+}
+
+.ad-container.flex-center {
+  display: flex !important;
+  justify-content: center;
+ // align-items: center;
+}
+
+.ad-container > div iframe {
+ // position:unset;
+}
+
+/* Preloader Styles */
+#afg_preloader {
+  display: flex;
+  justify-content: center;
+ // align-items: center;
+
+}
+
+/* Container123 Styles */
+#container123 {
+  width: 640px;
+  height: 480px;
+}
+
+/* Nested div inside ad-container */
+.ad-container > div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+/* Link Styles */
+#timer_div a, .timer-div a, .continue-lnk-container-rsection, .continue-link-yellow, #continue-link {
+  color: #000;
+}
+
+.continue-lnk-container-rsection, .continue-link-yellow {
+  font-size: 16px;
+
+}
+
+.timer-div {
+  margin-left: 5px;
+}
+
+/* Continue Container Styles */
+#continue-container, .continue-container {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  bottom: 0;
+  z-index: 10;
+  min-width:160px;
+  background: #ffe420;
+  border-radius: 5px;
+  font-weight: 500;
+  color: #000;
+  height: 20px;
+  padding: 5px;
+  text-align:center;
+}
+
+/* Continue Link Yellow Styles */
+.continue-link-yellow {
+  text-decoration: none;
+  background: #ffe420;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  height: 20px;
+  position: absolute;
+  left: 15px;
+  top:0;
+  display:block;
+  padding: 5px;
+  text-align:center;
+}
+
+.continue-link-yellow:active::before {
+  opacity: 1;
+  transform: translate(2px, 1px);
+  box-shadow: none;
+}
+
+/* AFG Container Styles */
+#afg_container {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+#afg_container .load-wrap {
+  width: 100%;
+  padding-top: 50px;
+  margin-bottom: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+#afg_container .load-wrap .loadingText {
+  display: block;
+  font-size: 20px;
+  margin-top: 46px;
+  color: #fff;
+  text-align: center;
+}
+
+#afg_container .load-wrap .circle {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin-left: 20px;
+  border-radius: 50%;
+  animation: afg_container_loading 1.6s infinite;
+  vertical-align: middle;
+}
+
+#afg_container .load-wrap .circle:first-child {
+  animation-delay: 0.1s;
+  background: #f8eb13;
+}
+
+#afg_container .load-wrap .circle:nth-child(2) {
+  animation-delay: 0.3s;
+  background: #29bffd;
+}
+
+#afg_container .load-wrap .circle:nth-child(3) {
+  animation-delay: 0.5s;
+  background: #f3733b;
+}
+
+#afg_container .load-wrap .circle:nth-child(4) {
+  animation-delay: 0.7s;
+  background: #65efbd;
+}
+
+/* Loading Animation */
+@keyframes afg_container_loading {
+  0%, 100% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+/* Play Now Button Styles */
+.playNow {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.playWrapper {
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  position: absolute;
+}
+
+#playAdsNowButton {
+  width: 88px;
+  height: 88px;
+  position: absolute;
+  z-index: 10000;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  /* Correct the positioning */
+  left: 50%;
+  top: 50%;
+}
+
+#playAdsNowButton h4 {
+  color: #fff;
+}
+
+#playAdsNowButton::before {
+  animation: playPulse 2s infinite;
+  background: #fff;
+  border-radius: 50%;
+  content: "";
+  height: 118%;
+  left: -9%;
+  position: absolute;
+  top: -9%;
+  width: 118%;
+  z-index: -1;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Add drop shadow */
+}
+
+#playAdsNowButton::after {
+  background: #56eeb7;
+  border-radius: 50%;
+  content: "";
+  height: 100%;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+#playAdsNowButton svg{
+  height: 34px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: scaleX(1.1) translate(-50%, -50%);
+  width: 40px;
+  z-index: 2;
+}
+
+@keyframes playPulse {
+  0% {
+    transform: scale(0.9);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 1);
+  }
+  50% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+  100% {
+    transform: scale(0.9);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+</style><script src="https://cdn.intergi.com/prebid/cmg-prebid.js"></script><script src="https://cdn.intergi.com/cmg/cmg-headerbidding.js"></script><script src="https://imasdk.googleapis.com/js/sdkloader/ima3_debug.js"></script><link href="./fonts.css" rel="stylesheet" type="text/css"><link href="./fonts.css" rel="stylesheet" type="text/css"><script attributionsrc="" type="text/javascript" async="" src="https://www.googleadservices.com/pagead/conversion/386269532/?random=1729802301456&amp;cv=11&amp;fst=1729802301456&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be4al0v872129483z8831857104za201zb831857104&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101533422~101686685~101794737~101823847&amp;u_w=598&amp;u_h=770&amp;url=https%3A%2F%2Fwww.coolmathgames.com%2F0-ovo%2Fplay&amp;label=ntg7CPuyxfUYENyCmLgB&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=OvO&amp;value=.005&amp;bttype=purchase&amp;npa=0&amp;pscdl=noapi&amp;auid=2038714633.1726777852&amp;uaa=x86&amp;uab=64&amp;uafvl=.Not%252FA)Brand%3B99.0.0.0%7CGoogle%2520Chrome%3B103.0.5060.132%7CChromium%3B103.0.5060.132&amp;uamb=0&amp;uam=&amp;uap=Chrome%20OS&amp;uapv=14816.131.0&amp;uaw=0&amp;fdr=QA&amp;rfmt=3&amp;fmt=4"></script></head> 
  
-<body> 
+<body class="no-select" data-new-gr-c-s-check-loaded="14.1203.0" data-gr-ext-installed=""><div class="ads-popup"><!--Start of Preloader call --><div id="afg_preloader"><div id="container123"><div id="videoplayer"></div><div id="adcontainer" class="ad-container"></div></div></div><!-- Continue to Game container with timer --><div id="continue-container" style="display:none"><div id="img-button-container"><div id="img-button-self" class="img-button"></div><div class="continue-lnk-container-rsection"><span id="continue-link">Continue in </span><span id="timer_div" class="timer-div">8</span></div></div></div><div id="afg_container"><div class="load-wrap"><div class="circle"></div><div class="circle"></div><div class="circle"></div><div class="circle"></div><h3 class="loadingText">Just a moment while your content loads</h3></div></div></div> 
 	<div id="fb-root"></div>
 	
 	<script>
@@ -373,22 +645,7 @@
 	</script>
 	
 	<!-- The canvas must be inside a div called c2canvasdiv -->
-	<div id="c2canvasdiv" class="no-select">
 	
-		<!-- The canvas the project will render to.  If you change its ID, don't forget to change the
-		ID the runtime looks for in the jQuery events above (ready() and cr_sizeCanvas()). -->
-		<canvas id="c2canvas" width="640" height="640">
-			<!-- This text is displayed if the visitor's browser does not support HTML5.
-			You can change it, but it is a good idea to link to a description of a browser
-			and provide some links to download some popular HTML5-compatible browsers. -->
-			<h1>Your browser does not appear to support HTML5.  Try upgrading your browser to the latest version.  <a href="http://www.whatbrowser.org">What is a browser?</a>
-			<br/><br/><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx">Microsoft Internet Explorer</a><br/>
-			<a href="http://www.mozilla.com/firefox/">Mozilla Firefox</a><br/>
-			<a href="http://www.google.com/chrome/">Google Chrome</a><br/>
-			<a href="http://www.apple.com/safari/download/">Apple Safari</a></h1>
-		</canvas>
-		
-	</div>
 	
 	<!-- Pages load faster with scripts at the bottom -->
 	
@@ -472,5 +729,20 @@
         document.addEventListener('keyup', function (e) {
         	  fnSendMsg(event);
         });
-        </script></body> 
-</html> 
+        </script><iframe height="0" width="0" style="display: none; visibility: hidden;"></iframe> 
+ <div id="banner-container" style="position: absolute; overflow: visible; transform: rotate(0deg); top: 514.892px; left: 72.8939px; width: 452.237px; height: 125.206px; display: none;"></div><iframe marginwidth="0" marginheight="0" scrolling="no" frameborder="0" id="17b9ffc7dd4697" width="0" height="0" src="about:blank" name="__pb_locator__" style="display: none; height: 0px; width: 0px; border: 0px;"></iframe><div id="c2canvasdiv" class="no-select" style="width: 598px; height: 770px; margin-left: 0px; margin-top: 0px;">
+	
+		<!-- The canvas the project will render to.  If you change its ID, don't forget to change the
+		ID the runtime looks for in the jQuery events above (ready() and cr_sizeCanvas()). -->
+		<canvas id="c2canvas" width="598" height="770">
+			<!-- This text is displayed if the visitor's browser does not support HTML5.
+			You can change it, but it is a good idea to link to a description of a browser
+			and provide some links to download some popular HTML5-compatible browsers. -->
+			<h1>Your browser does not appear to support HTML5.  Try upgrading your browser to the latest version.  <a href="http://www.whatbrowser.org">What is a browser?</a>
+			<br><br><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx">Microsoft Internet Explorer</a><br>
+			<a href="http://www.mozilla.com/firefox/">Mozilla Firefox</a><br>
+			<a href="http://www.google.com/chrome/">Google Chrome</a><br>
+			<a href="http://www.apple.com/safari/download/">Apple Safari</a></h1>
+		</canvas>
+		
+	</div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
