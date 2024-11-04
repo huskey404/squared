@@ -21,16 +21,15 @@
             text-align: center;
             color: #FFF;
         }
-        h1 {
-            font-size: 5rem;
-            font-weight: bold;
+        sub {
+            font-size: rem;
             margin-bottom: 30px;
             font-family: 'Roboto Mono', monospace;
             color: #FFF;
             text-align: left;
         }
-        h2 {
-            font-size: 2rem;
+        h1 {
+            font-size: 5rem;
             font-weight: bold;
             margin-bottom: 30px;
             font-family: 'Roboto Mono', monospace;
@@ -62,16 +61,18 @@
 </head>
 <body>
     <div class="back-arrow-container">
-        <a href="../index.html">
+        <a onclick="history.back()">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="back-arrow"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
         </a>
     </div>
-    <h1>tools</h1>
+    <h1>irc</h1>
+    <sub>how to use the chatroom</sub> <br>
+    <br>
     <div class="game-list">
-        <a href = "../downloads/aeries.html" class="game-item" download = "squaredaeries.html">aeries tab</a>
-        <a href = "../downloads/googleclassroom.html" class="game-item" download = "squaredgoogleclassroom.html">google classroom tab</a>
-        <a href="../information/irc.html" class="game-item">irc chatroom</a>
-        
+        <a href="../tools/irc.html" class="game-item">click me to join the chatroom</a><br><br>
+        enter a nickname and click connect<br>
+        to change nickname type /nick (new nickname)<br>
+        to leave the chat type /quit
     </div>
 </body>
 </html>
