@@ -1,4 +1,1 @@
-@font-face {
-    font-family: 'Monaspace';
-    src: url('resources/fonts/MonaspaceKryptonVarVF[wght\,wdth\,slnt].ttf')  format('truetype'), /* Safari, Android, iOS */
-  }
+@font-face { font-family: Monaspace; src: url('resources/fonts/MonaspaceKryptonVarVF[wght\,wdth\,slnt].ttf'); } 
