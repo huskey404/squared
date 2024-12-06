@@ -1,1 +1,7 @@
-@font-face { font-family: Monaspace; src: url('MonaspaceKryptonVarVF[wght,wdth,slnt].ttf'); } 
+@font-face {
+    font-family: 'Monaspace';
+    src: url('resources/fonts/otf/MonaspaceKrypton-Regular.otf') format('opentype'), /* IE6-IE8 */
+         url('resources/fonts/webfont/MonaspaceKryptonVarVF[wght\,wdth\,slnt].woff2') format('woff2'), /* Super Modern Browsers */
+         url('resources/fonts/webfont/MonaspaceKrypton-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+         url('resources/fonts/MonaspaceKryptonVarVF[wght\,wdth\,slnt].ttf')  format('truetype'), /* Safari, Android, iOS */
+  }
