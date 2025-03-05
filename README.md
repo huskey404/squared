@@ -1,4 +1,4 @@
-# squared: the simplest game website that runs on any school device (except apple classrooms, stop asking me)
+# squared: the simplest game website that runs on any school device
 ## on a school computer? scroll down to Disguised Tabs.
 
 **Squared was created by students, for students.**
