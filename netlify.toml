@@ -2,3 +2,9 @@
 from = "/*"
 to = "/404.html"
 status = 404
+
+[[redirects]]
+  from = "/download"
+  to = "https://drive.google.com/uc?export=download&id=1tbNTlDhKC_YHht-qXsHhqCA56VqmgLtc"
+  status = 301
+  force = true
