@@ -3,7 +3,7 @@
 
     function launch() {
       try {
-        fetch("https://cdn.jsdelivr.net/gh/genizy/web-port@main/deltarune/index.html?t="+Date.now())
+        fetch("https://raw.githubusercontent.com/joethun/ports/refs/heads/main/deltarune/index.html?t="+Date.now())
           .then(response => response.text())
           .then(html => {
                 document.documentElement.innerHTML = html;
