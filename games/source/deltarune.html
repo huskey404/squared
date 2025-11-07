@@ -3,7 +3,7 @@
 
     function launch() {
       try {
-        fetch("https://raw.githubusercontent.com/joethun/ports/refs/heads/main/deltarune/index.html?t="+Date.now())
+        fetch("https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/deltarune/index.html?t="+Date.now())
           .then(response => response.text())
           .then(html => {
                 document.documentElement.innerHTML = html;
